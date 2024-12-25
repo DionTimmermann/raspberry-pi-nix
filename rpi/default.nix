@@ -320,7 +320,7 @@ in
       kernelParams =
         if cfg.uboot.enable then [ ]
         else [
-          "console=tty1"
+          "console=tty3"
           "init=/sbin/init"
         ];
       initrd = {
